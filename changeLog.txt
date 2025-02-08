@@ -1,0 +1,45 @@
+project is not so simple anymore...
+
+Framework & Core Tech
+    Next.js 15.1
+    React 19.0
+    TypeScript
+    Tailwind CSS for styling
+    Radix UI for component primitives
+    Shadcn/ui component system
+Key Directories Structure
+    /app - Next.js app directory containing:
+        layout.tsx - Root layout with theme provider
+        page.tsx - Homepage with welcome message and navigation
+    order/ - Online ordering system
+    loyalty/ - Customer loyalty program
+    admin/ - Admin dashboard area
+    /components
+    /ui/ - Reusable UI components (buttons, inputs, etc.)
+    /admin/ - Admin-specific components like sidebar
+    /hooks - Custom React hooks
+        use-mobile.ts - Mobile device detection
+        use-toast.ts - Toast notification system
+
+Key features in project are: 
+1. online ordering systems - one for customers and one for admins
+2. inventory mgmt
+3. loyalty program
+4. customer signup form
+5. admin dashboards: loyalty, sales
+
+
+Small pending updates:
+1. admin dashboards: orders, inventory
+2. data visualizations (charts)
+3. auth
+4. form validations
+5. role-based access control
+
+
+Big pending updates:
+1. unit + integration + e2e tests
+2. database + API
+3. payment gateway
+4. notifications
+5. analytics
